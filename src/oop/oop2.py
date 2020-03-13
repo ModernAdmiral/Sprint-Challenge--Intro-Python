@@ -32,10 +32,10 @@ class Motorcycle(GroundVehicle):
 # TODO
 
 vehicles = [
-    GroundVehicle(2),
-    GroundVehicle(2),
+    GroundVehicle(),
+    GroundVehicle(),
     Motorcycle(),
-    GroundVehicle(2),
+    GroundVehicle(),
     Motorcycle(),
 ]
 
@@ -43,4 +43,5 @@ vehicles = [
 
 # TODO
 
-print()
+for i in vehicles:
+    print(i.drive())
